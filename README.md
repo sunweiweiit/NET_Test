@@ -2,7 +2,7 @@
 
 protected void Button1_Click(object sender, EventArgs e)  
   
-{  
+  {  
   
            SmtpClient client = new SmtpClient("smtp.qq.com", 587);  
             Random Rdm = new Random();  
@@ -16,4 +16,4 @@ protected void Button1_Click(object sender, EventArgs e)
             client.EnableSsl = true;  
             client.Send(msg);  
   
-} 
+   } 
